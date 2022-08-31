@@ -14,10 +14,10 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  // it(`should have as title 'angular-crash'`, () => {
+  // it(`should have as title 'angular-Tasks'`, () => {
   //   const fixture = TestBed.createComponent(AppComponent);
   //   const app = fixture.componentInstance;
-  //   expect(app.title).toEqual('angular-crash');
+  //   expect(app.title).toEqual('angular-Tasks');
   // });
 
   it('should render title', () => {
@@ -25,7 +25,7 @@ describe('AppComponent', () => {
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
     expect(compiled.querySelector('.content span')?.textContent).toContain(
-      'angular-crash app is running!'
+      'angular-Tasks app is running!'
     );
   });
 });
